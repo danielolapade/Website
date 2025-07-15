@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description"
+        content="Interactive STEM exhibit on aviation fuel, exploring its history, challenges, and sustainability.">
+    <meta name="author" content="Daniel Olapade">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Daniel Olapade, STEM Exhibit">
+    <meta property="og:description"
+        content="Interactive STEM exhibit on aviation fuel, exploring its history, challenges, and sustainability.">
+    <meta property="og:url" content="https://danielolapade.com">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../script.js"></script>
+    <title>Daniel Olapade, STEM Exhibit</title>
+</head>
+
+<body>
+    <!-- project header -->
+    <header class="header">
+        <a href="../index.html" class="homepageReturn" aria-label="Return to homepage">
+            <svg class="headerSvg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M19 12H5M5 12L12 19M5 12L12 5" />
+            </svg>
+            <p>Daniel Olapade</p>
+        </a>
+        <div class="contactInfo">
+            <div class="info" aria-label="Info about Daniel Olapade">Info</div>
+            <div><a class="emailLink" href="mailto:olapadedaniel99@gmail.com"
+                    aria-label="Email Daniel Olapade">Email</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- info -->
+        <div class="infoOverlay hideInfo"></div>
+        <div class="infoContainer hideInfo">
+            <div class="infoContent">
+                <p class="infoTitle">Engineer-In-Training</p>
+                <div class="infoDescription">
+                    <p>Based In Toronto.</p>
+                    <p>Currently a Service Engineer at Fike.</p>
+                    <p>Developing expertise in product design.</p>
+                    <p>Enjoys travelling & fun side projects.</p>
+                </div>
+                <p class="infoLinks">
+                    <a href="https://www.linkedin.com/in/danielolapade" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/danielolapade" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="Resume_Daniel_Olapade.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- biosensor project -->
+        <div class="projectHeader">
+            <p>Research Project</p>
+            <p>2024</p>
+        </div>
+        <div id="exhibitProjectBanner" class="projectBanner">
+            <div class="sliderBtns">
+                <svg class="sliderLeftBtn" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    aria-label="Previous slide">
+                    <path d="M19 12H5M5 12L12 19M5 12L12 5" />
+                </svg>
+                <svg class="sliderRightBtn" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    aria-label="Next slide">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" />
+                </svg>
+            </div>
+        </div>
+        <div class="projectContentContainer">
+            <div class="projectDescriptionContainer">
+                <div class="projectTitle">Interactive STEM Exhibit on Aviation Fuel</div>
+                <div class="projectDescription">
+                    Aviation fuel has a past, but what about its future? The Royal Aviation Museum of Western Canada
+                    (RAMWC) challenged my team to design a STEM exhibit on aviation fuel for visitors aged 7+.
+                    <br><br>
+                    Our goal? Uncover the history of aviation fuel, explore the challenges of greener alternatives, and
+                    inspire the next generation of problem-solvers through interactive learning.
+                    <br><br>
+                    <b>Proposed Solution:</b> A three-part exhibit featuring a historical timeline of aviation fuel,
+                    energy density station, and a carbon emissions station to explore sustainability challenges.
+                    <br><br><br>
+                    <div class="projectOutroContainer">
+                        <p class="projectOutro">
+                            <span class="projectOutroHeader"><b>Organization</b></span>
+                            <span>RAMWC</span>
+                        </p>
+                        <p class="projectOutro">
+                            <span class="projectOutroHeader"><b>Team Member</b></span>
+                            <span>Camyrn McMillan</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="exhibitProjectImgs" class="projectImgContainer" aria-label="STEM exhibit images">
+                <video src="video.mp4" poster="videoPoster.jpg" preload="auto" controls playsinline autoplay loop muted>
+                    Your browser does not support HTML5 video. Please upgrade your browser.
+                </video>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="scrollUp" aria-label="Scroll to top">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 19V5M12 5L5 12M12 5L19 12" />
+            </svg>
+        </div>
+        <div class="copyright"></div>
+    </footer>
+
+
+</body>
+
+</html>

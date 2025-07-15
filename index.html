@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="Portfolio showcasing relevant projects and case studies.">
+    <meta name="author" content="Daniel Olapade">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Daniel Olapade, Portfolio">
+    <meta property="og:description" content="Portfolio showcasing relevant projects and case studies.">
+    <meta property="og:url" content="https://danielolapade.com">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Daniel Olapade, Portfolio</title>
+</head>
+
+<body>
+    <!-- homepage header -->
+    <header class="header">
+        <div class="name" aria-label="Daniel Olapade">Daniel Olapade</div>
+        <div class="contactInfo">
+            <div class="info" aria-label="Info about Daniel Olapade">Info</div>
+            <div><a class="emailLink" href="mailto:olapadedaniel99@gmail.com" aria-label="Email Daniel Olapade" rel="noopener noreferrer">Email</a></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- info -->
+        <div class="infoOverlay hideInfo"></div>
+        <div class="infoContainer hideInfo">
+            <div class="infoContent">
+                <p class="infoTitle">Engineer-In-Training</p>
+                <div class="infoDescription">
+                    <p>Based In Toronto.</p>
+                    <p>Currently a Service Engineer at Fike.</p>
+                    <p>Developing expertise in product design.</p>
+                    <p>Enjoys travelling & fun side projects.</p>
+                </div>
+                <p class="infoLinks">
+                    <a href="https://www.linkedin.com/in/danielolapade" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/danielolapade" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="Resume_Daniel_Olapade.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                </p>    
+            </div>
+        </div>
+
+        <!-- Homepage -->
+        <div class="projectHomepage">
+            <a href="pennyProject/pennyProject.html" class="projectCard" aria-label="Penny Logic case study">
+                <video src="pennyProject/video.mp4" poster="pennyProject/videoPoster.jpg" preload="auto" playsinline autoplay loop muted>
+                    Your browser does not support HTML5 video. Please upgrade your browser.
+                </video>
+                <div class="projectCardDescription">Penny Logic, Case Study, 2025</div>
+            </a>   
+            
+            <a href="biosensorProject/biosensorProject.html" class="projectCard" aria-label="Biosensor Project">
+                <div id="biosensorProjectImgShuffle"></div>
+                <div class="projectCardDescription">Biosensors, Dr. Song, 2024</div>
+            </a> 
+
+            <a href="exhibitProject/exhibitProject.html" class="projectCard" aria-label="STEM exhibit Project">
+                <video src="exhibitProject/video.mp4" poster="exhibitProject/video.mp4" preload="auto" playsinline autoplay loop muted>
+                    Your browser does not support HTML5 video. Please upgrade your browser.
+                </video>
+                <div class="projectCardDescription">STEM Exhibit, RAMWC, 2024</div>
+            </a> 
+        </div> 
+    </main>
+
+
+    <footer>
+        <div class="copyright"></div>
+    </footer>
+
+</body>
+
+</html>
