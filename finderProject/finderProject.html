@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="ClauseFinder — Engineering Standards Search Tool">
+    <meta name="author" content="Daniel Olapade">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Daniel Olapade, ClauseFinder">
+    <meta property="og:description" content="Engineering Standards Search Tool | Python, Streamlit, PyPDF2, NLP">
+    <meta property="og:url" content="https://danielolapade.com">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../script.js"></script>
+    <title>Daniel Olapade, ClauseFinder</title>
+</head>
+
+<body>
+    <!-- project header -->
+    <header class="header">
+        <a href="../index.html" class="homepageReturn" aria-label="Return to homepage">
+            <svg class="headerSvg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M19 12H5M5 12L12 19M5 12L12 5" />
+            </svg>
+            <p>Daniel Olapade</p>
+        </a>
+        <div class="contactInfo">
+            <div class="info" aria-label="Info about Daniel Olapade">Info</div>
+            <div>
+                <a class="emailLink" href="mailto:olapadedaniel99@gmail.com"
+                   aria-label="Email Daniel Olapade"
+                   rel="noopener noreferrer">Email</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- info -->
+        <div class="infoOverlay hideInfo"></div>
+        <div class="infoContainer hideInfo">
+            <div class="infoContent">
+                <p class="infoTitle">Engineer-In-Training</p>
+                <div class="infoDescription">
+                    <p>Based in Toronto.</p>
+                    <p>Currently a Service Engineer at Fike.</p>
+                    <p>Developing expertise in product design.</p>
+                    <p>Enjoys travelling & fun side projects.</p>
+                </div>
+                <p class="infoLinks">
+                    <a href="https://www.linkedin.com/in/danielolapade" target="_blank"
+                       rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/danielolapade" target="_blank"
+                       rel="noopener noreferrer">GitHub</a>
+                    <a href="Resume_Daniel_Olapade.pdf" target="_blank"
+                       rel="noopener noreferrer">Resume</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- clause finder project -->
+        <div class="projectHeader">
+            <p>Project</p>
+            <p>2025</p>
+        </div>
+
+        <div class="projectBanner">
+            <video src="video.mp4" poster="videoPoster.jpg"
+                   preload="auto" controls playsinline autoplay loop muted>
+            </video>
+        </div>
+
+        <div class="projectContentContainer">
+            <div class="projectDescriptionContainer">
+                <div class="projectTitle">ClauseFinder</div>
+
+                <div class="projectDescription">
+                    Engineers and compliance professionals waste hours navigating massive PDF standards
+                    like NFPA 69, ISO 9001, and OSHA 1910. Ctrl+F only finds exact matches —
+                    no relevance ranking, no structure, no context.
+
+                    <br><br>
+
+                    At Fike, I regularly work with NFPA 69. Finding one requirement in a
+                    200-page standard can take 15–20 minutes. I built <b>ClauseFinder</b> to solve that.
+
+                    <br><br>
+
+                    ClauseFinder is a web-based engineering standards search tool built with
+                    Python and Streamlit. It transforms static PDFs into an interactive,
+                    searchable platform that ranks clauses by relevance, jumps directly to
+                    exact matches, and highlights results instantly.
+
+                    <br><br>
+
+                    Key features:
+                    <br>
+                    • Automatic clause extraction  
+                    <br>
+                    • Relevance-ranked search (TF-IDF / BM25)  
+                    <br>
+                    • Click-to-jump PDF navigation with highlighting  
+                    <br>
+                    • Compliance checklist generator (“shall” / “must” extraction)  
+                    <br>
+                    • Cross-standard gap comparison  
+                    <br>
+                    • Privacy-first session handling (no document storage)  
+
+                    <br><br>
+
+                    Reduces lookup time from 20 minutes to under 2.
+
+                    <br><br>
+
+                    Designed as “Google for Engineering Standards” — upload → search → click → jump.
+
+                    <br><br>
+
+                    <a href="https://github.com/danielolapade"
+                       target="_blank"
+                       rel="noopener noreferrer">View source code.</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="scrollUp" aria-label="Scroll to top">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 19V5M12 5L5 12M12 5L19 12" />
+            </svg>
+        </div>
+        <div class="copyright"></div>
+    </footer>
+
+</body>
+
+</html>
